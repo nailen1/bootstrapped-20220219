@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,11 +10,11 @@ body {
   align-items: center;
   justify-content: center;
   background: #7d2ae8;
-}
+} */
 .navbar {
   position: absolute;
   height: 120px;
-  width: 100%;
+  width: 80%;
   background: #fff;
   border-radius: 20px;
   display: flex;
@@ -86,12 +86,4 @@ ul .indicator::after {
   background: #fff;
   border-bottom-left-radius: 20px;
   box-shadow: 0 10px 0 #7d2ae8;
-}
-
-footer {
-  width: 100%;
-  height: 120px; /* footer의 높이 */
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
